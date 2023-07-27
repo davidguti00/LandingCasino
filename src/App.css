@@ -1,38 +1,57 @@
-.App {
+/* Estilos generales */
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+}
+
+
+.carouselContainer {
+  max-width: 100%;
+  max-height: 500px; /* Establece la altura máxima del Carousel */
+}
+
+.carousel .slide img {
+  object-fit: contain; /* Ajusta la imagen al tamaño del slide manteniendo la relación de aspecto */
+  max-width: 100%;
+  max-height: 100%;
+  
+}
+
+.toolbarTitle {
+  flex-grow: 1;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Estilos para los juegos destacados */
+.carousel-root {
+  max-width: 100%;
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Estilos para la imagen en la card */
+.cardImageContainer {
+  width: 100%;
+  height: 250px; /* Ajusta la altura deseada para la imagen */
+  overflow: hidden;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.cardImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+  
+  
+
+/* Estilos para el botón de WhatsApp */
+.MuiFab-primary {
+  background-color: #25d366;
 }
 
-.App-link {
-  color: #61dafb;
+.MuiFab-primary:hover {
+  background-color: #128c7e;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

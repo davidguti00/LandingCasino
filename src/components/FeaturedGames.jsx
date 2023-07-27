@@ -1,15 +1,16 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-
-import banner3 from "../images/banner2-casino.jpg"
+import banner1 from "../images/banerf1.png";
+import banner3 from "../images/banerf3.png";
+import banner5 from "../images/banerf5.png";
 
 function FeaturedGames() {
     // Array con las imágenes destacadas
     const featuredGames = [
+        { src: banner5, alt: "Juego 1" },
         { src: banner3, alt: "Juego 1" },
-        { src: banner3, alt: "Juego 2" },
-        { src: banner3, alt: "Juego 3" },
+        { src: banner1, alt: "Juego 1" },
         // 
     ];
 

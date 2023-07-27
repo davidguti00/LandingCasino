@@ -18,7 +18,7 @@ function GameGrid({games}) {
             
             {games.length > 0 ? games.map((game, index) => (
                 <Grid item xs={12} sm={6} md={4} lg={2} key={index}>
-                <Card style={{borderRadius: "15px", border: "4px solid #424242"}}>
+                <Card style={{borderRadius: "15px", border: "4px solid #424242", backgroundColor: "#424242"}}>
                     <div className="cardImageContainer" >
                     <img src={game.image} alt={game.name} className="cardImage" />
                     </div>

@@ -29,7 +29,8 @@ function App() {
       <FloatingWhatsappButton />
     </div>
   );
-}
+} 
+
 
 export default App;
 

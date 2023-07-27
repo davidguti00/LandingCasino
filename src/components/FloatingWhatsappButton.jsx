@@ -10,7 +10,7 @@ function FloatingWhatsappButton() {
     const encodedMessage = encodeURIComponent(defaultMessage);
 
     // Número de teléfono de destino
-    const phoneNumber = "2235368498";
+    const phoneNumber = "2236756546";
 
     // Combinar el número de teléfono y el mensaje codificado en el enlace de WhatsApp
     const whatsappLink = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodedMessage}`;

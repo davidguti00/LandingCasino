@@ -23,7 +23,7 @@ function Header() {
         />
 
         </IconButton>
-        <Typography variant="h5">Premier Las Vegas</Typography>
+        <Typography variant="h5">Cartón lleno</Typography>
       </Toolbar>
     </AppBar>
   );

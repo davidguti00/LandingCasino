@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import FeaturedGames from "./components/FeaturedGames";
 import GameGrid from "./components/GameGrid";
 import FloatingWhatsappButton from "./components/FloatingWhatsappButton";
+import FloatingTelegramButton from "./components/FloatingTelegramButton";
 import SearchBar from "./components/SearchBar"
 import "./App.css";
 import gamesData from "./components/info";
@@ -27,6 +28,7 @@ function App() {
       <SearchBar onFilter={handleFilter} />
       <GameGrid games={filteredGames} />
       <FloatingWhatsappButton />
+      <FloatingTelegramButton />
     </div>
   );
 } 
